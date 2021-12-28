@@ -10,7 +10,7 @@ function AuthHome() {
             </div>
 
             <div className="grid">
-                <a className="sign-box" href="/signin/admin">
+                <a className="sign-box" href="/signin">
                     <h1>Login Page</h1>
                     <p>Login to G-Auth Project!</p>
                 </a>
