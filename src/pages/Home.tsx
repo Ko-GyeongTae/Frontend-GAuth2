@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import './Auth/Login.css';
-import { getAccessToken, getClientID, setClientID } from '../utils';
+import { getAccessToken, setClientID } from '../utils';
 
 function Home() {
     const [cid, setCid] = useState<string>(); // id State variable
