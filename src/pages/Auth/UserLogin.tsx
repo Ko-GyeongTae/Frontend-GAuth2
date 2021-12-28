@@ -38,7 +38,7 @@ function UserLogin() {
     return (
         <div className="container">
             <div className="header">
-                <h1>동아리원 로그인</h1>
+                <h1>G-Auth 로그인</h1>
             </div>
             <form className="input-form" onSubmit={Login}>
                 <div className="form-box">
