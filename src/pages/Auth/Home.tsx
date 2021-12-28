@@ -4,6 +4,7 @@ function AuthHome() {
 
     return (
         <main className="App">
+            <title>GAUTH | HOME</title>
             <div className="header">
                 <h1>Welcome to G-Auth!</h1>
                 <p>Made with Golang!</p>
