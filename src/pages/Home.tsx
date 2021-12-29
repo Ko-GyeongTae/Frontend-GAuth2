@@ -36,8 +36,10 @@ function Home() {
             </div>
             <div className="input-form">
                 <div className="form-box">
+                    <code>Request header에 clientId: value형태로 clientID를 추가해주세요.</code>
                     <h1>Client ID</h1>
                     <p>{cid}</p>
+                    <code>사용할 서버의 jwtSecret을 밑에 값으로 설정해주세요.</code>
                     <h1>jwtSecret</h1>
                     <p>{secret}</p>
                     <button onClick={Generate}>Login</button>
