@@ -42,7 +42,7 @@ function Home() {
                     <code>사용할 서버의 jwtSecret을 밑에 값으로 설정해주세요.</code>
                     <h1>jwtSecret</h1>
                     <p>{secret}</p>
-                    <button onClick={Generate}>Login</button>
+                    <button onClick={Generate}>Generate</button>
                 </div>
             </div>
         </div>
