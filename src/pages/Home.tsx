@@ -11,7 +11,7 @@ function Home() {
         console.log(getAccessToken())
         e.preventDefault();
 
-        await axios.post("http://localhost:8080/api/v1/auth/genkey", {}, { // Request to login api with axios module
+        await axios.post("https://neon-dev.kro.kr:5083/api/v1/auth/genkey", {}, { // Request to login api with axios module
             headers: { "Authorization": getAccessToken() + ""}
         })
             .then(res => {
