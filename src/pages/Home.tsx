@@ -12,7 +12,7 @@ function Home() {
         e.preventDefault();
 
         await axios.post("https://neon-dev.kro.kr:5083/api/v1/auth/genkey", {}, { // Request to login api with axios module
-            headers: { "Authorization": getAccessToken() + ""}
+            headers: { "Authorization": getAccessToken() + "" }
         })
             .then(res => {
                 console.log(res.data);
@@ -44,6 +44,9 @@ function Home() {
                     <p>{secret}</p>
                     <button onClick={Generate}>Generate</button>
                 </div>
+                <footer>
+                    <p>Frontend & Backend Made by 고경태</p>
+                </footer>
             </div>
         </div>
     )
